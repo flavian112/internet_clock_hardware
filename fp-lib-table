@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MM5451")(type "KiCad")(uri "${KIPRJMOD}/libs/MM5451")(options "")(descr "MM5451"))
+  (lib (name "157136S12801")(type "KiCad")(uri "${KIPRJMOD}/libs/157136S12801")(options "")(descr "WL-T7DS"))
+  (lib (name "PTV09A-4020S-B104")(type "KiCad")(uri "${KIPRJMOD}/libs/PTV09A-4020S-B104")(options "")(descr "PTV09A-4020S-B104"))
+)
