@@ -391,7 +391,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 5.08 -2.37 0)
+			(at 2.54 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "9030222d-46b1-4f72-838b-18d44bca55c5")
 			(effects
@@ -404,6 +404,7 @@
 		(property "Value" "4k7"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1098acd7-666c-400a-8686-4abb09e29325")
 			(effects
 				(font
@@ -663,13 +664,13 @@
 		(descr "PTV09A-4020S-B104-1")
 		(tags "Variable Resistor")
 		(property "Reference" "RV1"
-			(at 2.5 -5.8 0)
+			(at 2.5 -7.62 0)
 			(layer "F.SilkS")
 			(uuid "8f2af67a-275e-4ad1-ae29-73abf642c498")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -941,13 +942,13 @@
 		)
 		(model "PTV09A-4020S-B104.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.2 7.6 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 0 180)
 			)
 		)
 	)
@@ -1962,7 +1963,7 @@
 		(descr "Potentiometer, vertical, Vishay T73YP, http://www.vishay.com/docs/51016/t73.pdf")
 		(tags "Potentiometer vertical Vishay T73YP")
 		(property "Reference" "RV2"
-			(at -0.06 -7.09 -90)
+			(at 10.16 -8.86 0)
 			(layer "F.SilkS")
 			(uuid "39f1a0bb-259f-4284-849a-c85e0d4f464c")
 			(effects
@@ -2358,7 +2359,7 @@
 		(descr "PDIP-40LD-PL-1")
 		(tags "Integrated Circuit")
 		(property "Reference" "U1"
-			(at -7.779 -27.94 180)
+			(at 7.461 -27.94 180)
 			(layer "F.SilkS")
 			(uuid "98a867f7-d792-407c-81d4-1339cddd93c9")
 			(effects
@@ -6434,7 +6435,7 @@
 		(descr "C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*2mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf")
 		(tags "C Rect series Radial pin pitch 2.50mm  length 4.6mm width 2mm Capacitor")
 		(property "Reference" "C1"
-			(at 1.25 -2.25 90)
+			(at 3.810001 -2.249999 180)
 			(layer "F.SilkS")
 			(uuid "f770bb78-59be-44de-bafa-43b5ff87aa1f")
 			(effects
